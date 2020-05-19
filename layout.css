@@ -1,0 +1,163 @@
+.banner {
+    min-height: calc(100vh - 86px);
+    background: url('./Imagem/esportivoback.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mapa {
+    height: 100%;
+    width: 100%;
+}
+
+.bg-danger-trans {
+    background-color: rgba(140, 1, 14, 0.50) !important;
+}
+
+.bg-danger {
+    background-color: rgb(140, 1, 14) !important;
+}
+
+.btn-danger {
+    background-color: #8c010e !important;
+    border-radius: #8c010e;
+    text-align: center;
+    border: none;
+    height: 70%;
+}
+
+.btn-danger:hover {
+    background-color: #680303 !important;
+}
+
+.btn-danger:active {
+    transform: translateY(4px);
+}
+
+.imgSobreNos {
+    max-width: 110%;
+    max-height: 70%;
+}
+
+.servico {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.loguinho {
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    background-color: rgba(16, 18, 20, 1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navcor {
+    background-color: rgba(16, 18, 20, 0.92);
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(12, 14, 16, 0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(16, 18, 20, 0);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #111;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 0px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #34af23
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.backimg {
+    background-image: url('./Imagem/fachada.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sombra {
+    background-color: rgba(16, 18, 20, 0.5);
+}
